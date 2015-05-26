@@ -1,8 +1,0 @@
-com\maxon\tomorrow\service\impl\ClientServiceImpl.class
-com\maxon\tomorrow\app\DatabaseConfig.class
-com\maxon\tomorrow\domain\Client.class
-com\maxon\tomorrow\app\AppConfig.class
-com\maxon\tomorrow\controller\HomeController.class
-com\maxon\tomorrow\service\api\ClientService.class
-com\maxon\tomorrow\dao\ClientRepository.class
-com\maxon\tomorrow\app\Application.class
