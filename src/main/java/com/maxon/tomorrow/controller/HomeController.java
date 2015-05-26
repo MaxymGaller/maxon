@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.*;
 public class HomeController {
     
     @Autowired
-    ClientService userService;
+    ClientService clientService;
     
     @RequestMapping("/hello")
         String home() {
     
-        userService.saveClient(new Client("Jack", "Bauer"));
+        clientService.saveClient(new Client("Jack", "Bauer"));
             
         return "main";
     }
@@ -25,9 +25,8 @@ public class HomeController {
      @RequestMapping("/user")
         String viewClient() {
     
-        Client user = userService.getClient(1L);
-            if (1==1)
-                throw new RuntimeException(user.getEmail());
+        Client user = clientService.getClient(1L);
+           
         return "home";
     }
         
